@@ -1,0 +1,17 @@
+# Ignore node modules in both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore environment variables
+client/.env
+server/.env
+
+# Optional: ignore builds if you generate them
+client/dist/
+client/build/
+server/dist/
+server/build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
